@@ -324,7 +324,9 @@ footer p {
         height: auto; /* Altura automática */
     }
     .main-nav li a {
-        padding: 12px 20px; /* Padding ajustado para mobile */
+       /* padding: 12px 20px; /* Padding ajustado para mobile */
+	   padding: 8px 12px;
+	   font-size: 0.9em;  /* Fonte menor */
     }
     
     /* Demais ajustes originais */
@@ -352,6 +354,13 @@ footer p {
 
 /* Telas muito pequenas, menores que 480px (celulares) */
 @media (max-width: 480px) {
+	/* nova inserção */
+	.main-nav li a {
+        padding: 6px 10px;
+        font-size: 0.85em;
+    }
+	/* nova inserção */
+	
     h1 {
         font-size: 1.8rem;
     }
