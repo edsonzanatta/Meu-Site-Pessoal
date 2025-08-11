@@ -321,12 +321,9 @@ footer p {
     /* Ajustes para o menu de navegação */
     .main-nav {
        /* flex-direction: column; /* Empilha os itens verticalmente */
-       /* height: auto; /* Altura automática */
-	   .main-nav {
         flex-wrap: wrap; /* Permite quebrar para outra linha se necessário */
-        height: auto;
+        height: auto;/* Altura automática */
     }
-	   
 	   
     } 
 	
